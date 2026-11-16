@@ -1,0 +1,30 @@
+body {
+  background: #ffffff;
+  color: #000000;
+  font-family: "Times New Roman", Times, serif;
+  max-width: 720px;
+  margin: 20px auto;
+  padding: 0 12px;
+}
+a { color: #0000ee; }
+a:visited { color: #551a8b; }
+table { border-collapse: collapse; }
+td, th { padding: 4px 8px; vertical-align: top; text-align: left; }
+.small { font-size: small; color: #555555; }
+
+/* email pages */
+.mail-nav { font-family: "Courier New", monospace; font-size: small; }
+.mail-headers {
+  font-family: "Courier New", monospace;
+  font-size: 14px;
+  border-bottom: 1px solid #000;
+  padding-bottom: 8px;
+  margin-bottom: 12px;
+}
+.mail-headers td { padding: 1px 8px 1px 0; }
+.mail-body {
+  font-family: "Courier New", monospace;
+  font-size: 14px;
+  white-space: pre-wrap;
+  line-height: 1.4;
+}
